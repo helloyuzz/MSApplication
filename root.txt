@@ -1,0 +1,8 @@
+根证书：
+makecert -r -pe -n "CN=LogicHealth CSSD Root " -sv LogicHealth_root.pvk LogicHealth_root.cer
+
+应用证书：
+makecert -n "CN=LogicHealth CSSD" -pe -iv d:\clickonce\LogicHealth_rooot.pvk -ic d:\clickonce\LogicHealth_root.cer -sky exchange -ss My
+
+Pwd:
+cssd123

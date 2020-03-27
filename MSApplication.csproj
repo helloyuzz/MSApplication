@@ -127,5 +127,8 @@
   <ItemGroup>
     <None Include="Resources\ToolCommandPackage.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="root.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
